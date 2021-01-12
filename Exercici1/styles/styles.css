@@ -1,0 +1,108 @@
+/* GENERAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E6E7E9;
+    margin: 0.5rem 20%;
+}
+
+/* NAVBAR TOP SECTION OF THE DOCUMENT */
+
+.header-section {
+    display: flex;
+    background-color: #4B4B4D;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: #D2D3D5;
+    width: 150px;
+    margin: 0.7rem 0.5rem;
+}
+
+.navbar li{
+    list-style: none;
+    background-color: #D2D3D5;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    z-index: 1;
+    margin: 1rem 0.5rem;
+}
+
+.navbar li a{
+    list-style: none;
+    color: #D2D3D5;
+    text-decoration: none;
+}
+
+.navbar ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+}
+
+/* FIRST SECTION OF THE DOCUMENT */
+
+.top-section-container {
+    display: flex;
+}
+
+.top-section {
+    background-color: #97989A;
+    width: 20%;
+    height: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.top-section + .top-section {
+    margin-left: 0.09rem;
+}
+
+/* MIDDLE SECTION OF THE DOCUMENT */
+
+.middle-section-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.7rem;
+}
+
+.middle-section {
+    width: 33%;
+    height: 85px;
+    background-color: #858688;
+}
+
+/* LAST SECTION OF THE DOCUMENT */
+
+.bottom-section-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.7rem;
+}
+
+.bottom-section-sides {
+    width: 25%;
+    height: 250px;
+    background-color: #858688;
+}
+
+.bottom-section-center {
+    width: 50%;
+    height: 250px;
+    background-color: #4B4B4D;
+}
+
+/* FOOTER OF THE DOCUMENT */
+
+.footer {
+    width: 100%;
+    background-color: #4B4B4D;
+    height: 30px;
+}
