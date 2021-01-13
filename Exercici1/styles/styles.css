@@ -16,23 +16,28 @@ body {
     background-color: #4B4B4D;
     flex-direction: row;
     justify-content: space-between;
+    height: 120px;
+    width: 1000px;
 }
 
 .logo {
     background-color: #D2D3D5;
-    width: 150px;
-    margin: 0.7rem 0.5rem;
+    width: 200px;
+    margin: 30px 22px;
 }
 
 .navbar li{
     list-style: none;
     background-color: #D2D3D5;
     text-decoration: none;
-    width: 25px;
-    height: 25px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     z-index: 1;
-    margin: 1rem 0.5rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar li a{
@@ -43,20 +48,23 @@ body {
 
 .navbar ul{
     list-style: none;
-    width: 100%;
+    height: 120px;
     display: flex;
+    align-items: center;
 }
 
 /* FIRST SECTION OF THE DOCUMENT */
 
 .top-section-container {
     display: flex;
+    justify-content: space-between;
+    width: 1000px;
 }
 
 .top-section {
     background-color: #97989A;
     width: 20%;
-    height: 20px;
+    height: 48px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -70,12 +78,13 @@ body {
 .middle-section-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.5rem;
+    width: 1000px;
+    height: 192px;
 }
 
 .middle-section {
     width: 33%;
-    height: 85px;
     background-color: #858688;
 }
 
@@ -85,24 +94,26 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.7rem;
+    width: 1000px;
+    height: 453px;
 }
 
 .bottom-section-sides {
     width: 25%;
-    height: 250px;
+    height: 100%;
     background-color: #858688;
 }
 
 .bottom-section-center {
     width: 50%;
-    height: 250px;
+    height: 100%;
     background-color: #4B4B4D;
 }
 
 /* FOOTER OF THE DOCUMENT */
 
 .footer {
-    width: 100%;
+    width: 1000px;
+    height: 70px;
     background-color: #4B4B4D;
-    height: 30px;
 }
