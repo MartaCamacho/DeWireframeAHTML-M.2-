@@ -248,9 +248,16 @@ body {
     align-items: center;
 }
 
+.bottom-section-text h2{
+    margin-top: 0.5rem;
+    font-size: 20px;
+}
+
 .bottom-section p {
   padding: 10px;
-  display: inline-block
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .bottom-section-button {
