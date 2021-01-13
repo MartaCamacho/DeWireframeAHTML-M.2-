@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" media="screen" />
     <title>Exercici 2</title>
 </head>
+
 <body>
-    <!-- NAVBAR TOP SECTION OF THE DOCUMENT -->
+
+    <!-- NAVBAR & LOGO - TOP SECTION OF THE DOCUMENT -->
+
     <header class="header-section">
         <div class="logo">
             <img src="public/images/cover.png" alt="logo">
@@ -26,52 +30,101 @@
             </ul>
         </nav>
     </header>
-<!-- FIRST SECTION OF THE DOCUMENT -->
+
+    <!-- FIRST SECTION OF THE DOCUMENT -->
+
     <section class="top-section-container">
         <div class="top-section"><a href="#inicio">Inicio</a></div>
         <div class="top-section"><a href="#productos">Productos</a></div>
-        <div class="top-section"><a href="#sobre">Sobre nosotros</ap></div>
+        <div class="top-section"><a href="#sobre">Sobre nosotros</ap>
+        </div>
         <div class="top-section"><a href="#noticias">Noticias</a></div>
         <div class="top-section"><a href="#contacto">Contacto</a></div>
     </section>
-<!-- MIDDLE SECTION OF THE DOCUMENT -->
+
+    <!-- MIDDLE SECTION OF THE DOCUMENT -->
+
     <section class="middle-section-container">
         <div class="middle-section">
-            <img class="middle-section-image" src="./public/images/perfumeria.jpg" alt=""/>
+            <img class="middle-section-image" src="./public/images/perfumeria.jpg" alt="" />
             <div>
                 <p class="middle-section-text">Mira nuestra selección de cosmética y perfumería </p>
                 <a href=""><button class="middle-section-button">Perfumería</button></a>
             </div>
-            
+
         </div>
         <div class="middle-section">
-            <img class="middle-section-image" src="./public/images/arrivals.jpg" alt=""/>
+            <img class="middle-section-image" src="./public/images/arrivals.jpg" alt="" />
             <div>
                 <p class="middle-section-text">En esta sección encontrarás los últimos productos que nos han llegado</p>
-                <a  href=""><button class="middle-section-button">Novedades</button></a>
+                <a href=""><button class="middle-section-button">Novedades</button></a>
             </div>
         </div>
         <div class="middle-section">
-            <img class="middle-section-image" src="./public/images/calendar.jpg" alt=""/>
+            <img class="middle-section-image" src="./public/images/calendar.jpg" alt="" />
             <div>
                 <p class="middle-section-text">Consulta los días que la farmacia abre 24h</p>
                 <a href=""><button class="middle-section-button">Calendario</button></a>
             </div>
         </div>
     </section>
-<!-- LAST SECTION OF THE DOCUMENT -->
-    <section class="bottom-section-container">
-        <div class="bottom-section-sides"></div>
-        <div class="bottom-section-center"></div>
-        <div class="bottom-section-sides"></div>
-    </section>
-<!-- FOOTER OF THE DOCUMENT -->
+
+    <!-- LAST SECTION OF THE DOCUMENT -->
+
+    <div class="bottom-section-container" id="noticias">
+        <article class="bottom-section-sides">
+            <section class="">
+                <div class="bottom-section">
+                    <img src="./public/images/forest.jpg" alt="" />
+                    <div class="bottom-section-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at dolor ex. Orci varius
+                            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                        <a href=""><button class="bottom-section-button">Ver más</button></a>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article class="bottom-section-center">
+            <section class="">
+                <div class="bottom-section">
+                    <img src="./public/images/sunglasses.jpg" alt="" />
+                    <div class="bottom-section-text">
+                        <p>Fusce at nisl rhoncus, tempor felis ut, lacinia elit. Suspendisse potenti. Suspendisse
+                            gravida, augue non pretium pulvinar, sapien tellus eleifend purus, eu placerat eros neque
+                            pretium lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos. Aliquam eget congue nulla. Suspendisse potenti. </p>
+                        <a href=""><button class="bottom-section-button">Ver más</button></a>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article class="bottom-section-sides">
+            <section class="">
+                <div class="bottom-section">
+                    <img src="./public/images/blood.jpg" alt="" />
+                    <div class="bottom-section-text">
+                        <p>Maecenas fringilla non lorem sed faucibus. Vestibulum fringilla neque lorem, ut interdum leo
+                            fringilla efficitur. </p>
+                        <a href=""><button class="bottom-section-button">Ver más</button></a>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </div>
+
+    <!-- FOOTER OF THE DOCUMENT -->
+
     <footer class="footer-container">
         <ul class="footer">
             <li>Copyright 2021 Marta Camacho</li>
-            <li>Contacto</li>
+            <li id="contacto"><a href="mailto:contacto@farmacia.com" class="footer-link">Contacto</a></li>
         </ul>
     </footer>
+    
     <script src="https://kit.fontawesome.com/129126e64f.js" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
