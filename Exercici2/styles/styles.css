@@ -23,11 +23,11 @@ html {
 
 body {
   background-color: var(--clr-light);
-  margin-top: 0.5rem ;
+  margin-top: 0.5rem;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: var(--clr-dark);
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -143,7 +143,6 @@ body {
 
 .middle-section {
   width: 33%;
-  background-color: #858688;
   position: relative;
   text-align: center;
 }
@@ -207,7 +206,7 @@ body {
   width: 25%;
   height: 100%;
   background-color: var(--clr-white);
-  box-shadow: -5px -5px  var(--clr-accent) inset;
+  box-shadow: -5px -5px var(--clr-accent) inset;
 }
 
 .bottom-section-center {
@@ -216,8 +215,6 @@ body {
   background-color: var(--clr-white);
   box-shadow: -5px -5px var(--clr-accent) inset;
 }
-
-
 
 .bottom-section {
   display: flex;
@@ -230,7 +227,7 @@ body {
   width: 210px;
   height: 210px;
   padding-top: 10px;
-  display: inline-block
+  display: inline-block;
 }
 
 .bottom-section-center img {
@@ -240,16 +237,16 @@ body {
 }
 
 .bottom-section-text {
-    height: 210px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.bottom-section-text h2{
-    margin-top: 0.5rem;
-    font-size: 20px;
+.bottom-section-text h2 {
+  margin-top: 0.5rem;
+  font-size: 20px;
 }
 
 .bottom-section p {
@@ -299,74 +296,71 @@ body {
 }
 
 .footer-link {
-    text-decoration: none;
-    color: var(--clr-accent)
+  text-decoration: none;
+  color: var(--clr-accent);
 }
 
 .footer-link:hover {
-    text-decoration: none;
-    color: var(--clr-medium);
-    transition: 1000ms;
+  text-decoration: none;
+  color: var(--clr-medium);
+  transition: 1000ms;
 }
 
-
-
-
-
-@media (max-width: 1000px){
-
+@media (max-width: 1000px) {
   body {
     font-size: 16px;
     height: 100%;
   }
-  
+
   /* NAVBAR TOP SECTION OF THE DOCUMENT */
-  
+
   .header-section {
     height: 100%;
     width: 100%;
     align-items: center;
     margin-top: 0;
+    max-height: 100px;
   }
-  
+
   .logo {
     margin: 2rem 1rem;
     background-color: rgba(255, 255, 255, 0);
   }
-  
+
   .logo img {
     width: 80%;
+    max-height: 100px;
   }
-  
+
   .navbar li {
     width: 30px;
   }
-  
+
   .navbar li a {
     font-size: 20px;
   }
-  
+
   .navbar ul {
     height: 100%;
   }
-  
+
   /* FIRST SECTION OF THE DOCUMENT */
-  
+
   .top-section-container {
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin-top: 1rem;
   }
-  
+
   .top-section {
     width: 100%;
     height: 3rem;
     margin: 0.1rem 0;
   }
-  
+
   /* MIDDLE SECTION OF THE DOCUMENT */
-  
+
   .middle-section-container {
     display: flex;
     flex-direction: column;
@@ -376,16 +370,20 @@ body {
     height: 100%;
     margin-top: 1rem;
   }
-  
+
   .middle-section {
     width: 100%;
     height: 100%;
   }
-  
+
   .middle-section div {
     margin: 0.25rem 0.1rem;
   }
-  
+
+  .middle-section-image {
+    width: 100%;
+  }
+
   .middle-section-button {
     display: inline-block;
     text-align: center;
@@ -396,9 +394,9 @@ body {
     margin-top: 1.5rem;
     font-weight: bold;
   }
-  
+
   /* LAST SECTION OF THE DOCUMENT */
-  
+
   .bottom-section-container {
     display: flex;
     justify-content: space-between;
@@ -408,33 +406,32 @@ body {
     width: 90%;
     height: 100%;
   }
-  
+
   .bottom-section-sides {
     width: 100%;
     height: 100%;
     background-color: var(--clr-white);
-    box-shadow: -5px -5px  var(--clr-accent) inset;
+    box-shadow: -5px -5px var(--clr-accent) inset;
   }
-  
+
   .bottom-section-center {
     margin: 1rem 0;
     width: 100%;
     height: 100%;
   }
-  
+
   .bottom-section-text {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .bottom-section-text h2{
-      font-size: 18px;
-      height: 100%;
+
+  .bottom-section-text h2 {
+    font-size: 18px;
+    height: 100%;
   }
-  
-  
+
   .bottom-section-button {
     margin-top: 0.1rem;
   }
@@ -442,17 +439,18 @@ body {
   .bottom-section {
     padding: 2rem 0.5rem;
   }
-  
+
   /* FOOTER OF THE DOCUMENT */
-  
+
   .footer-container {
     width: 100%;
     height: 100%;
   }
-
 }
 
-@media (min-width: 600px){
+@media (min-width: 700px) and (max-width: 1000px) {
+  
+  /* FIRST SECTION OF THE DOCUMENT */
 
   .top-section-container {
     display: flex;
@@ -464,6 +462,8 @@ body {
     margin-right: 0.2rem;
   }
 
+  /* MIDDLE SECTION OF THE DOCUMENT */
+
   .middle-section-container {
     flex-direction: row;
   }
@@ -472,4 +472,18 @@ body {
     margin-left: 0.2rem;
   }
 
+   /* LAST SECTION OF THE DOCUMENT */
+
+  .bottom-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bottom-section-container {
+    text-align: left;
+  }
+
+  .bottom-section-text {
+    margin-left: 1rem;
+  }
 }
