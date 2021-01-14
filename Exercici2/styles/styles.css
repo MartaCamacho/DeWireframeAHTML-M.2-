@@ -308,3 +308,146 @@ body {
     color: var(--clr-medium);
     transition: 1000ms;
 }
+
+
+
+
+
+@media (max-width: 1000px){
+
+  body {
+    font-size: 16px;
+    height: 100%;
+  }
+  
+  /* NAVBAR TOP SECTION OF THE DOCUMENT */
+  
+  .header-section {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    margin-top: 0;
+  }
+  
+  .logo {
+    margin: 2rem 1rem;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .logo img {
+    width: 80%;
+  }
+  
+  .navbar li {
+    width: 30px;
+  }
+  
+  .navbar li a {
+    font-size: 20px;
+  }
+  
+  .navbar ul {
+    height: 100%;
+  }
+  
+  /* FIRST SECTION OF THE DOCUMENT */
+  
+  .top-section-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .top-section {
+    width: 100%;
+    height: 3rem;
+    margin: 0.1rem 0;
+  }
+  
+  /* MIDDLE SECTION OF THE DOCUMENT */
+  
+  .middle-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    height: 100%;
+    margin-top: 1rem;
+  }
+  
+  .middle-section {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .middle-section div {
+    margin: 0.25rem 0.1rem;
+  }
+  
+  .middle-section-button {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--clr-accent);
+    padding: 9px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* LAST SECTION OF THE DOCUMENT */
+  
+  .bottom-section-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 90%;
+    height: 100%;
+  }
+  
+  .bottom-section-sides {
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-white);
+    box-shadow: -5px -5px  var(--clr-accent) inset;
+  }
+  
+  .bottom-section-center {
+    margin: 1rem 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bottom-section-text {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .bottom-section-text h2{
+      font-size: 18px;
+      height: 100%;
+  }
+  
+  
+  .bottom-section-button {
+    margin-top: 0.1rem;
+  }
+
+  .bottom-section {
+    padding: 2rem 0.5rem;
+  }
+  
+  /* FOOTER OF THE DOCUMENT */
+  
+  .footer-container {
+    width: 100%;
+    height: 100%;
+  }
+
+}
