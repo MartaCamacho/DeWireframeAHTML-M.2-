@@ -451,3 +451,25 @@ body {
   }
 
 }
+
+@media (min-width: 600px){
+
+  .top-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .top-section + .top-section {
+    margin-right: 0.2rem;
+  }
+
+  .middle-section-container {
+    flex-direction: row;
+  }
+
+  .middle-section + .middle-section {
+    margin-left: 0.2rem;
+  }
+
+}
